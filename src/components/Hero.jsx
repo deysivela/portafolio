@@ -22,17 +22,14 @@ export default function Hero() {
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-float" />
-        <div
-          className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float"
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float"
           style={{ animationDelay: '3s' }}
         />
-        <div
-          className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary-light/10 rounded-full blur-3xl animate-float"
+        <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-primary-light/10 rounded-full blur-3xl animate-float"
           style={{ animationDelay: '1.5s' }}
         />
         {/* Grid pattern */}
-        <div
-          className="absolute inset-0 opacity-5"
+        <div className="absolute inset-0 opacity-5"
           style={{
             backgroundImage: `linear-gradient(rgba(139,92,246,0.3) 1px, transparent 1px),
                               linear-gradient(90deg, rgba(139,92,246,0.3) 1px, transparent 1px)`,
@@ -87,9 +84,7 @@ export default function Hero() {
         <div className="mt-16 animate-fade-in" style={{ animationDelay: '1.4s' }}>
           <a href="#sobre-mi" className="inline-flex flex-col items-center gap-2 text-text-muted hover:text-primary-light transition-colors duration-300">
             <span className="text-xs tracking-widest uppercase">Scroll</span>
-            <svg className="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
+            <i className='bx bx-chevron-down text-2xl animate-bounce'></i>
           </a>
         </div>
       </div>

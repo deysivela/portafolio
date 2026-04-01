@@ -14,18 +14,18 @@ const skillCategories = [
     title: 'Backend',
     skills: [
       { name: 'Node.js', icon: 'https://cdn.simpleicons.org/nodedotjs/339933' },
-      { name: 'PHP', icon: 'https://cdn.simpleicons.org/php/777BB4' },
-      { name: '.NET', icon: 'https://cdn.simpleicons.org/dotnet/512BD4' },
-      { name: 'Express', icon: 'https://cdn.simpleicons.org/express/ffffff' }, // White for dark mode
+      { name: '', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' },
+      { name: '', icon: 'https://cdn.simpleicons.org/dotnet/512BD4' },
+      { name: 'Express', icon: 'https://cdn.simpleicons.org/express/ffffff' },
       { name: 'Python', icon: 'https://cdn.simpleicons.org/python/3776AB' },
-      { name: 'MySQL', icon: 'https://cdn.simpleicons.org/mysql/4479A1' },
+      { name: '', icon: 'https://cdn.simpleicons.org/mysql/4479A1' },
     ],
   },
   {
     title: 'Herramientas',
     skills: [
       { name: 'Git', icon: 'https://cdn.simpleicons.org/git/F05032' },
-      { name: 'GitHub', icon: 'https://cdn.simpleicons.org/github/ffffff' }, // White for dark mode
+      { name: 'GitHub', icon: 'https://cdn.simpleicons.org/github/ffffff' },
       { name: 'Postman', icon: 'https://cdn.simpleicons.org/postman/FF6C37' },
       { name: 'Figma', icon: 'https://cdn.simpleicons.org/figma/F24E1E' },
     ],
